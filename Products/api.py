@@ -2,7 +2,7 @@ from rest_framework.decorators import api_view, authentication_classes, permissi
 from django.http import JsonResponse
 from rest_framework import status
 from rest_framework.response import Response
-from .models import Material,Snippet
+from .models import Material, Snippet
 from .serializers import MaterialSerializer, SnippetSerializer
 from django.shortcuts import get_object_or_404
 from rest_framework.views import APIView
